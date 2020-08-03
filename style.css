@@ -1,0 +1,79 @@
+html, body {
+    background-color: #000;
+}
+
+#lvl {
+    background-color: #ff6600;
+    width: 600px;
+    max-height: 400px;
+    text-align: center;
+    margin-left: 650px;
+    font-size: 37px;
+    font-family: 'FFF Forward';
+    color: #ff0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    border-radius: 20px
+}
+
+#lvl.open {
+     max-height: 1000px;
+     -webkit-transition: max-height 0.7s;
+     -moz-transition: max-height 0.7s;
+     transition: max-height 0.7s;
+}
+
+#moreBtn {
+    background-color: #ff6600;
+    border: #ff6600;
+    color: #ff0;
+    font-size: 30px;
+    font-family: 'FFF Forward';
+    margin-left: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px yellow;
+    transform: scale 4s
+}
+
+#moreBtn:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#behance {
+    background-color: #ff6600;
+    border: #ff6600;
+    color: #ff0;
+    font-size: 30px;
+    font-family: 'FFF Forward';
+    margin-left: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px yellow;
+    transform: scale 4s;
+    text-decoration: none;
+}
+
+#behance:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#kr {
+    background-color: #ff6600;
+    border: #ff6600;
+    color: #ff0;
+    font-size: 30px;
+    font-family: 'FFF Forward';
+    margin-left: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px yellow;
+    transform: scale 4s;
+    text-decoration: none;
+}
+
+#kr:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
