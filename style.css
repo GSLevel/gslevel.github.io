@@ -1,5 +1,6 @@
 html, body {
     background-color: #000;
+    max-height: 4000px;
 }
 
 #lvl {
@@ -19,7 +20,7 @@ html, body {
 }
 
 #lvl.open {
-     max-height: 1000px;
+     max-height: 1100px;
      -webkit-transition: max-height 0.7s;
      -moz-transition: max-height 0.7s;
      transition: max-height 0.7s;
@@ -53,6 +54,8 @@ html, body {
     box-shadow: 0px 3px 0px 0px yellow;
     transform: scale 4s;
     text-decoration: none;
+    position: absolute;
+    top: 10px
 }
 
 #behance:hover {
@@ -71,9 +74,83 @@ html, body {
     box-shadow: 0px 3px 0px 0px yellow;
     transform: scale 4s;
     text-decoration: none;
+    position: absolute;
+    left: -600px;
+    top: 10px
 }
 
 #kr:hover {
     cursor: pointer;
     transform: scale(1.1)
+}
+
+#clickBtn {
+    background-color: #ff6600;
+    border: #ff6600;
+    color: #ff0;
+    font-size: 30px;
+    font-family: 'FFF Forward';
+    margin-left: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px yellow;
+    transform: scale 4s;
+    text-decoration: none;
+    max-width: 400px;
+    margin-left: 200px;
+    margin-top: 100px
+}
+
+#clickBtn.click {
+    background-color: #ff6600;
+    border: #ff6600;
+    color: #ff0;
+    font-size: 30px;
+    font-family: 'FFF Forward';
+    margin-left: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px yellow;
+    transform: scale 4s;
+    text-decoration: none;
+}
+
+#clickBtn:hover {
+    cursor: pointer;
+    transform: scale(1.1)
+}
+
+#srch {
+    background-image: linear-gradient(70deg, yellow, red);
+    color: black;
+    border: yellow;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right: 270px;
+    top: 100px;
+    left: 1300px;
+    border-radius: 10px;
+    font-family: 'FFF Forward'
+}
+
+#srch::placeholder{
+    color: black
+}
+#srchBtn {
+    background-image: linear-gradient(70deg, yellow, red);
+    color: black;
+    border: yellow;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right: 270px;
+    top: 100px;
+    left: 1640px;
+    border-radius: 5px;
+    font-family: 'FFF Forward';
+    cursor: pointer;
+    transform: scale 4s;
+}
+
+#srchBtn:hover {
+   transform: scale(1.1)
 }
