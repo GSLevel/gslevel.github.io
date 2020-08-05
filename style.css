@@ -3,6 +3,15 @@ html, body {
     max-height: 4000px;
 }
 
+@font-face {
+    font-family: 'FFF Forward';
+    src: url(https://cdn.discordapp.com/attachments/699663156011729023/740592608287391914/FFFFORWA.ttf);
+}
+
+* {
+    font-family: 'FFF Forward';
+}
+
 #lvl {
     background-color: #ff6600;
     width: 600px;
@@ -10,7 +19,6 @@ html, body {
     text-align: center;
     margin-left: 650px;
     font-size: 37px;
-    font-family: 'FFF Forward';
     color: #ff0;
     overflow: hidden;
     -webkit-transition: max-height 0.7s;
@@ -31,7 +39,6 @@ html, body {
     border: #ff6600;
     color: #ff0;
     font-size: 30px;
-    font-family: 'FFF Forward';
     margin-left: 300px;
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px yellow;
@@ -48,7 +55,6 @@ html, body {
     border: #ff6600;
     color: #ff0;
     font-size: 30px;
-    font-family: 'FFF Forward';
     margin-left: 800px;
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px yellow;
@@ -68,7 +74,6 @@ html, body {
     border: #ff6600;
     color: #ff0;
     font-size: 30px;
-    font-family: 'FFF Forward';
     margin-left: 800px;
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px yellow;
@@ -89,7 +94,6 @@ html, body {
     border: #ff6600;
     color: #ff0;
     font-size: 30px;
-    font-family: 'FFF Forward';
     margin-left: 800px;
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px yellow;
@@ -105,7 +109,6 @@ html, body {
     border: #ff6600;
     color: #ff0;
     font-size: 30px;
-    font-family: 'FFF Forward';
     margin-left: 800px;
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px yellow;
@@ -129,7 +132,7 @@ html, body {
     top: 100px;
     left: 1300px;
     border-radius: 10px;
-    font-family: 'FFF Forward'
+
 }
 
 #srch::placeholder{
@@ -146,7 +149,7 @@ html, body {
     top: 100px;
     left: 1640px;
     border-radius: 5px;
-    font-family: 'FFF Forward';
+
     cursor: pointer;
     transform: scale 4s;
 }
