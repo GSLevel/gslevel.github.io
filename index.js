@@ -1,50 +1,24 @@
-var lvl = document.getElementById('lvl');
-var moreBtn = document.getElementById('moreBtn');
-var clickBtn = document.getElementById('clickBtn');
+var lvl = document.getElementById('LvL');
+var main = document.getElementById('main');
+var desc = document.getElementById('desc');
+var btns = document.getElementById('buttons');
 
-moreBtn.onclick = function() {
+setTimeout(() => {
+    lvl.classList.add("fade");
+}, 5000);
 
-    if (lvl.className == "open") {
-        lvl.className = "";
-        moreBtn.innerHTML = "Show More";
-    } else {
-        lvl.className = "open";
-        moreBtn.innerHTML = "Show Less";
-    }
+setTimeout(() => {
+   main.classList.add("fade2");
+   lvl.style.display = "none";
+}, 6500)
 
-};
+setTimeout(() => {
+    desc.classList.add("fade3");
+ }, 7500)
 
-function change() {
-    clickBtn.innerHTML = "sub to gs level for good content starting in september"
-}
-
-function play() {
-    var audio = document.getElementById('clickme');
-    audio.play();
-}
-
-function play1() {
-    var audio = document.getElementById('showmore');
-    audio.play();
-}
-
-function play2() {
-    var audio = document.getElementById('portfolio');
-    audio.play();
-}
-
-function play3() {
-    var audio = document.getElementById('blocc');
-    audio.play();
-}
-
-function play4() {
-    var audio = document.getElementById('srchh');
-    audio.play();
-}
-
-function play5() {
-    var audio = document.getElementById('sub');
-    audio.play();
-}
-
+ setTimeout(() => {
+    btns.classList.add("fade4");
+    setTimeout(() => {
+        btns.style.opacity = "1"
+    }, 8,700)
+ }, 8500)
