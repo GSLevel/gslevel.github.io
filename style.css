@@ -20,6 +20,41 @@ html, body {
     width: extend-to-zoom;
 }
 
+#v {
+    position: relative;
+    right: 800px;
+    animation: lvl 3s ease-in-out;
+    padding: 0px
+}
+
+#rightL {
+    position: relative;
+    bottom: 800px;
+    animation: rightL 4s ease-in-out;
+    padding: 0px;
+    right: 23rem;
+}
+
+#leftL {
+    position: relative;
+    animation: lvl 2s ease-in-out;
+    padding: 0px
+}
+
+#LvL {
+    position: relative;
+    left: 400px;
+    transition: opacity 0.4s ease-in-out;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+}
+
+#LvL.fade {
+    opacity: 0;
+}
+
 #main {
     opacity: 0;
     transition: opacity 0.6s ease-in-out;
@@ -50,6 +85,26 @@ html, body {
     opacity: 1;
 }
 
+@keyframes lvl {
+    from {
+        top: -5000px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+@keyframes rightL {
+    from {
+        bottom: 2000px;
+    }
+
+    to {
+        bottom: 800px;
+    }
+}
+
 #buttons {
     display: none;
     opacity: 0;
@@ -64,7 +119,38 @@ html, body {
     display: unset;
 }
 
-#home, #tutLink, #downLink1 {
+#twitter {
+    background-color: #00bfff;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    border-radius: 2px;
+    transition: 0.4s;
+    cursor: pointer;
+    padding-bottom: 5px
+}
+
+#yt {
+    background-color: #ff0000;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    border-radius: 2px;
+    transition: 0.4s;
+    cursor: pointer
+}
+
+#yt:hover {
+    background-color: #fff;
+    color: #f00;
+}
+
+#twitter:hover {
+    background-color: #fff;
+    color: #00bfff;
+}
+
+#css {
     background-color: #ff5e00;
     border: none;
     outline: none;
@@ -74,48 +160,52 @@ html, body {
     cursor: pointer;
 }
 
-#home:hover, #tutLink:hover, #downLink1:hover {
+#css:hover {
     background-color: #fff;
     color: #ff5e00;
 }
 
-#tutLink {
-    display: inherit;
+#twitter img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    top: 3px;
     position: relative;
-    left: 820px;
-    margin-bottom: 50px
 }
 
-#tut1 {
-    position: relative;
-    right: 300px
+#yt img {
+    width: 50px;
+    height: 50px;
+    float: left;
 }
 
-#css1 {
-    position: relative;
-    left: 500px;
-    top: -350px
+#css img {
+    width: 50px;
+    height: 50px;
+    float: left;
 }
 
-#css1 h1 {
-    position: relative;
-    top: 30px;
-    right: -50px
+#bh {
+    background-color: #1f5bff;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    border-radius: 2px;
+    transition: 0.4s;
+    cursor: pointer;
+    padding-bottom: 5px
 }
 
-#downLink1 {
-    position: relative;
-    left: -240px;
-    top: 50px
+#bh:hover {
+    background-color: #fff;
+    color: #1f5bff;
 }
 
-#css1 img {
-    position: relative;
-    left: 50px
-}
-
-#home {
-    bottom: 200px;
+#bh img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    top: 3px;
     position: relative;
 }
 
