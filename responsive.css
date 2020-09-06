@@ -1,0 +1,36 @@
+@media screen and (max-width: 1366px) {
+    #LvL {
+        bottom: 150px;
+        left: 300px
+    }
+    #v {
+        bottom: 790px;
+        left: 30px;
+        animation: v 3s ease-in-out
+    }
+    #rightL {
+        bottom: 1600px;
+        left: 30px;
+        animation: rightLL 4s ease-in-out
+    }
+}
+
+@keyframes v {
+    from {
+        bottom: 2000px;
+    }
+
+    to {
+        bottom: 790px;
+    }
+}
+
+@keyframes rightLL {
+    from {
+        bottom: 2000px;
+    }
+
+    to {
+        bottom: 1600px;
+    }
+}
