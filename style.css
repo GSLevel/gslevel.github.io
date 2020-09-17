@@ -209,3 +209,33 @@ html, body {
     position: relative;
 }
 
+.btn {
+    background-color: #ff5e00;
+      border: none;
+      outline: none;
+      font-size: 20px;
+      border-radius: 2px;
+      transition: 0.4s;
+      cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #ff5e00
+  }
+
+  .btnm {
+     background-color: #ff5e00;
+      border: none;
+      outline: none;
+      font-size: 30px;
+      border-radius: 2px;
+      transition: 0.4s;
+      cursor: pointer;
+  }
+  
+  .btnm:hover {
+    background-color: #fff;
+    color: #ff5e00
+  }
+
